@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --raleway: 'Raleway', sans-serif;
+    --color-1: #db1b73;
+}
+.title span {
+    color: var(--color-1);
+    position: relative;
+}
+.title span::before {
+    width: 40px;
+    height: 4px;
+    background: var(--color-1);
+    top: 70%;
+    position: absolute;
+    content: '';
+}
+.title span::after {
+    width: 10px;
+    height: 4px;
+    background: var(--color-1);
+    top: 70%;
+    position: absolute;
+    content: '';
+}
+.title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+.btn {
+	padding: .0rem .0rem;
+}
+/* nav start */
+nav {
+    text-transform: uppercase;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: .4s;
+}
+nav .navbar-brand {
+    font-family: var(--raleway);
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--color-1);
+    text-transform: uppercase;
+}
+nav ul li {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+    position: relative;
+    transition: .4s;
+}
+nav ul li a {
+    color: #fff !important;
+}
+nav ul li .active {
+    color: var(--color-1) !important;
+}
+nav ul li a:hover {
+    color: var(--color-1) !important;
+}
+nav ul li a::after {
+    width: 0px;
+    height: 1px;
+    background: var(--color-1);
+    position: absolute;
+    top: 80%;
+    left:11%;
+    content: '';
+    opacity: 0;
+    transition: .4s;
+}
+nav ul li .active::after {
+    width: 50px;
+    opacity: 1;
+}
+nav ul li a:hover::after {
+    width: 50px;
+    opacity: 1;
+}
+nav ul li a::before {
+    width: 0px;
+    height: 1px;
+    background: var(--color-1);
+    position: absolute;
+    top: 90%;
+    left:11%;
+    content: '';
+    opacity: 0;
+    transition: .4s;
+}
+nav ul li .active::before {
+    width: 20px;
+    opacity: 1;
+}
+nav ul li a:hover::before {
+    width: 20px;
+    opacity: 1;
+}
+.fixed_menu {
+    background: #000;
+}
+/* nav end */
+/* banner start */
+.banner_part {
+    background: url(../images/disha\ .jpg) no-repeat top;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+.banner_part .overlay {
+    padding: 5px 0 5% 0;
+    background: rgba(0, 0, 0,.5);
+}
+.banner_part .overlay .banner_con .text h1 {
+    font-size: 55px;
+    font-weight: 700;
+    padding: 62% 0 0 0;
+    text-transform: uppercase;
+}
+.banner_part .overlay .banner_con .text p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+    line-height: 30px;
+}
+.banner_part .overlay .banner_con .text .btn {
+    margin: 15px 0 40px 0px;
+}
+.banner_part .overlay .banner_con .text .btn a {
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid var(--color-1);
+    color: var(--color-1);
+    padding: 8px;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.banner_part .overlay .banner_con .btn:hover a {
+    background: var(--color-1);
+    color: #fff;
+}
+/* banner end */
+/* cunter start */
+.cunter_part {
+    padding: 40px 0 0 0;
+    color: #fff;
+}
+.cunter_part .item {
+    background: var(--color-1);
+    border-right: 1px solid;
+    padding: 40px;
+}
+.cunter_part .item i {
+    font-size: 50px;
+    padding: 0 0 15px 0;
+}
+.cunter_part .item h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.cunter_part .item p {
+    font-size: 20px;
+    font-weight: 400;
+}
+/* cunter start */
+/* about start */
+.about_part {
+    padding: 40px 0;
+}
+.about_part .img_con {
+    position: relative;
+}
+.about_part .img_con img {
+    width: 100%;
+}
+.about_part .img_con .overlay {
+    background: rgba(0, 0, 0,.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.about_part .img_con .overlay a {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+}
+.about_part .img_con .overlay i {
+    width: 40px;
+    height: 40px;
+    background: var(--color-1);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 20px;
+}
+.about_part .text h2 {
+    font-family: var(--font-1);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about_part .title span::before {
+    left: 102%;
+}
+.about_part .title span::after {
+    left: 118%;
+}
+.about_part .text_con {
+    margin: 14px 0 0 10px;
+    font-family: var(--font-1);
+}
+.about_part .text_con h5 {
+    font-family: var(--raleway);
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin: 10px 0;
+    color: #4e4e4e;
+    line-height: 1.3;
+    font-weight: 300;
+}
+.about_part .text_con p {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0 25px 0;
+    line-height: 1.8;
+    word-spacing: 1px;
+}
+.about_part .text_con a {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px;
+    border: 1px solid var(--color-1);
+    color: var(--color-1) !important;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.about_part .text_con a:hover {
+    background: var(--color-1);
+    color: #fff !important;
+}
+/* about end */
+/* album-slider-part */
+.album_part .title {
+    text-align: center;
+}
+.album_part span::before {
+    left: 102%;
+}
+.album_part span::after {
+    left: 139%;
+}
+.album_part .title p {
+    color: #4e4e4e;
+}
+.album_part .album_slider {
+    margin: 60px 0;
+}
+.album_part .album_slider .album img {
+    width: 100%;
+}
+/* album-slider-part */
+/* work start */
+.work_part {
+    background: url(../images/bg_img.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.work_part .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.8);
+    padding: 70px 0;
+}
+.work_part .masage_text_con {
+    padding: 0 230px;
+}
+.work_part .masage_text_con h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--color-1);
+    margin: 0 0 15px 0;
+}
+.work_part .overlay p {
+    font-family: var(--raleway);
+    font-size: 14px;
+    color: #fff;
+    margin: 10px 0 0 0;
+}
+.work_part .overlay .btn a {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--color-1);
+    border: 1px solid var(--color-1);
+    padding: 10px;
+    transition: .4s;
+    margin: 40px 0 0 0;
+}
+.work_part .btn a:hover {
+    background: var(--color-1);
+    color: #fff;
+}
+/* work end */
+/* service start */
+.service_part {
+    margin: -10px 0 0 0;
+    padding: 60px 0;
+}
+.service_part span::before {
+    left: 102%;
+}
+.service_part span::after {
+    left: 136%;
+}
+.service_part .title p {
+    color: #4e4e4e;
+    margin-bottom: 50px;
+}
+.service_part .item_con {
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    transition: .4s;
+}
+.service_part .item_con:hover {
+    border: 1px solid var(--color-1);
+}
+.service_part .item_con i {
+    padding: 0 0 30px 0; 
+}
+.service_part .item_con .btn {
+    width: 60px;
+    height: 60px;
+    background: var(--color-1);
+    border-radius: 50%;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.service_part .item_con h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 18px 0 0 0;
+}
+.service_part .item_con p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #666;
+}
+/* service end */
+/* medal start */
+.masage_part {
+    background: url(../images/work\ back.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.masage_part .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    background: rgba(0, 0, 0,.8);
+}
+.masage_part h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--color-1);
+}
+.masage_part p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #fff;
+    margin: 15px 0 30px 0;
+}
+.masage_part .btn:hover a {
+    color: #fff;
+    background: var(--color-1);
+}
+.masage_part a {
+    font-size: 15px;
+    color: var(--color-1);
+    border: 1px solid var(--color-1);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 0px 47px;
+    transition: .4s;
+}
+.masage_part .skill_text {
+    color: var(--color-1);
+}
+.masage_part ul li {
+    position: relative;
+    transition: .4s;
+    border-bottom: 1px dashed var(--color-1);
+    padding: 12px 0;
+}
+.masage_part ul li::before {
+    height: 1px;
+	width: 20px;
+    background: var(--color-1);
+	content: '';
+	position: absolute;
+	z-index: 11;
+	margin: 10px 0 0 -30px;
+}
+/* medal end */
+/* portpolio start */
+.port_part {
+    width: 100%;
+    padding: 60px 0;
+    background: #fbfbfb;
+}
+.port_part .title {
+    text-align: center;
+}
+.port_part span::before {
+    left: 102%;
+}
+.port_part span::after {
+    left: 129%;
+}
+.port_part .title p {
+    color: #4e4e4e;
+}
+.port_part .portfolio_filter button {
+    text-transform: capitalize;
+    transition: .4s;
+}
+.port_part .portfolio_filter button:hover {
+    background: var(--color-1);
+    color: #fff;
+    border-radius: 5px;
+}
+.port_part .item {
+    width: 100%;
+    transition: .4s;
+}
+.port_part .item img {
+    width: 100%;
+}
+.port_part .row > * {
+	padding-right: calc(var(--bs-gutter-y) * .5);
+	padding-left: calc(var(--bs-gutter-y) * .5);
+}
+.port_part .portfolio_filter button {
+    padding: 10px;
+    border: none;
+    background: transparent;
+}
+/* portpolio end */
+/* blog start */
+.blog_part {
+    width: 100%;
+    padding: 60px 0;
+    background: #f0f0f0;
+}
+.blog_part .title {
+    text-align: center;
+}
+.blog_part .title span::before {
+    left: 102%;
+}
+.blog_part .title span::after {
+    left: 156%;
+}
+.blog_part .title p {
+    color: #4e4e4e;
+    margin: 0 0 60px 0;
+}
+.blog_part .item_con img {
+    width: 100%;
+}
+.blog_part .item_con .text_con {
+    position: relative;
+    padding: 40px;
+    box-shadow: 0px 0px 6px 0px #e1e1e1;
+}
+.blog_part .item_con .text_con .post_date {
+    min-width: 28px;
+    min-height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #556677;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.blog_part .item_con .text_con .post_date .month {
+    display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	padding: 0 10px;
+	background: var(--color-1);
+	text-transform: uppercase;
+}
+.blog_part .item_con .text_con .post_date .date {
+	color: #fff;
+	font-size: 14px;
+}
+.blog_part .item_con .text_con .post_title a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--color-1);
+    transition: .4s;
+}
+.blog_part .item_con .text_con .post_title a:hover {
+    color: #333;
+}
+.blog_part .item_con .text_con .post_description p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 16px;
+}
+.blog_part .item_con .btm {
+    color: #fff;
+    background: var(--color-1);
+    padding: 20px;
+}
+.blog_part .item_con .btm i {
+    margin: 0 0 0 20px;
+    font-size: 20px;
+}
+/* blog end */
+/* contact start */
+.contact_part {
+    background: url(../images/model.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact_part .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    background: rgba(0, 0, 0,.8);
+}
+.contact_part .title {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.contact_part .title h2 {
+    color: #fff;
+}
+.contact_part .title span::before {
+    left: 104%;
+}
+.contact_part .title span::after {
+    left: 136%;
+}
+.contact_part .title p {
+    color: #fff;
+}
+.contact_part form {
+    margin-top: 40px;
+}
+.contact_part .main input {
+    width: 48%;
+    padding: 15px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.contact_part .website input {
+    width: 97%;
+    padding: 15px;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.contact_part .masage textarea {
+    width: 97%;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+}
+.contact_part form ::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact_part form a {
+    font-size: 18px;
+    font-weight: 400;
+    background: var(--color-1);
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+}
+.contact_part .adders_con {
+    margin: 30px 0 0 0;
+    background: var(--color-1);
+    padding: 0 0 60px 0;
+}
+.contact_part .adders_con h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 50px 0 0 0;
+    margin: 0 0 0 15px;
+}
+.contact_part .item {
+    margin: 35px 0 0 15px;
+    color: white;
+}
+.contact_part .item i {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact_part .item h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact_part .item p {
+    font-size: 18px;
+    font-weight: 400;
+}
+/* contact end */
+/* back 2 top start */
+.back_2_top {
+    background: var(--color-1);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 21px 0px rgba(184,158,158,0.75);
+-webkit-box-shadow: 0px 10px 21px 0px rgba(184,158,158,0.75);
+-moz-box-shadow: 0px 10px 21px 0px rgba(184,158,158,0.75);
+}
+.back_2_top i {
+    font-size: 20px;
+}
+/* back 2 top end */
+/* footer start */
+footer {
+    padding: 10px;
+    background: var(--color-1);
+    color: white;
+}
+footer .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px 0 0 0;
+}
+footer .icon {
+    text-align: right;
+}
+footer .icon a {
+    margin: 0 0 0 20px;
+    font-size: 30px;
+    color: white;
+}
+/* footer end */

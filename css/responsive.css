@@ -1,0 +1,661 @@
+@media (min-width:320px) and (max-width:575.98px) {
+    nav{
+        padding: 0px;
+        margin: 0px 0 0 0;
+    }
+    nav .navbar-brand{
+        font-size: 25px;
+    }
+    nav button i{
+        color: #fff;
+        font-size: 20px;
+    }
+    nav ul li{
+        text-align: center;
+        background: #000;
+        margin: 0 0 0 0px;
+    }
+    nav ul li a::before{
+        height: 0px;
+    }
+    nav ul li a::after{
+        height: 0px;
+    }
+    .banner_part .overlay .banner_con .text h1 {
+        font-size: 30px;
+        padding: 90% 0 0 0;
+    }
+    .banner_part .overlay .banner_con .text p {
+        display: none;
+    }
+    .banner-part .overlay .text .btn a{
+        display: none !important; 
+    }
+    .banner_part .overlay .banner_con .text .btn a {
+        display: none;
+    }
+    .cunter_part {
+        padding-top: 13px;
+    }
+    .cunter_part .item {
+        margin-bottom: 12px;
+    }
+    .about_part {
+        padding: 0px;
+    }
+    .about_part .img_con .overlay i {
+        margin-top: 10px;
+    }
+    .about_part .text_con h2 {
+        font-size: 20px;
+        margin-top: 18px;
+    }
+    .about_part .title span::after {
+        display: none;
+    }
+    .about_part .text_con .mod {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .about_part .text_con p {
+        font-size: 15px;
+        line-height: 16px;
+        width: auto;
+    }
+    .album_part {
+        margin-top: 30px;
+    }
+    .album_part span::after {
+        display: none;
+    }
+    .album_part .album_slider {
+        margin: 30px 0;
+    }
+    .album_part .text a{
+        color: #fff !important;
+        background: #db1b73;
+        margin-top: 25px;
+    }
+    .work_part .masage_text_con {
+        padding: 0 0px;
+    }
+    .work_part .masage_text_con h2 {
+        font-size: 27px;
+    }
+    .work_part .overlay {
+        padding: 34px 0;
+    }
+    .service_part {
+        margin: 15px 0;
+        padding: 10px;
+    }
+    .service_part span::after {
+        display: none;
+    }
+    .service_part .title p {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .service_part .item_con {
+        margin: 10px 0;
+        margin-left: 0px;
+    }
+    .masage_part p {
+        margin: 0 0 25px 0;
+    }
+    .masage_part .overlay {
+        padding: 0px;
+        text-align: center;
+    }
+    .masage_part h2 {
+        font-size: 26px;
+    }
+    .masage_part .btn {
+        margin-left: -0px;
+    }
+    .masage_part p {
+        margin: 0 0 25px 0;
+    }
+    .masage_part .skill_text {
+        margin: 30px 0 0 -31px;
+    }
+    .port_part {
+        padding: 15px 0;
+    }
+    .port_part .title p {
+        margin-bottom: 0px;
+    }
+    .port_part .row > * {
+        padding-right: calc(var(--bs-gutter-y) * .0);
+        padding-left: calc(var(--bs-gutter-y) * .0);
+    }
+    .port_part span::after {
+        display: none;
+    }
+    .port_part .title h2 {
+        font-size: 30px;
+    }
+    .port_part .portfolio_filter button {
+        padding: 5px;
+    }
+    .port_part .portfolio_filter button {
+        padding: -2px 15px !important;
+        color: var(--color-1);
+    }
+    .blog_part {
+        padding: 10px 0;
+    }
+    .blog_part .title p {
+        margin-bottom: 20px;
+    }
+    .blog_part .title span::after {
+        display: none;
+    }
+    .blog_part .item_con {
+        margin: 10px 0;
+    }
+    .blog_part .item_con .text_con {
+        text-align: center;
+    }
+    .blog_part .item_con .btm i {
+        margin: 0 0 0 14px;
+    }
+    .contact_part .overlay {
+        padding: 13px 0;
+    }
+    .contact_part .title {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .contact_part .title h2 {
+        font-size: 30px;
+    }
+    .contact_part .title span::after{
+        display: none;
+    }
+    .contact_part form{
+        margin: 0px;
+    }
+    .contact_part .main input{
+        width: 97%;
+        margin: 10px 0;
+    }
+    .contact_part .website input{
+        margin-top: 8px;
+    }
+    .contact_part .adders{
+        margin: 25px 0;
+        padding-bottom: 30px;
+    }
+    .back_2_top {
+        padding: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer .text{
+        text-align: center;
+    }
+    footer .icon{
+        margin-top: 12px;
+        text-align: center;
+    }
+    footer .icon a{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    nav button i{
+        color: #fff;
+    }
+    nav ul li a::before{
+        height: 0px;
+    }
+    nav ul li a::after{
+        height: 0px;
+    }
+    nav ul li{
+        text-align: center;
+        background: #000;
+        margin: 0 0 0 0px;
+    }
+    .cunter_part {
+        padding: 20px 0 0 0;
+    }
+    .cunter_part .item {
+        padding: 20px;
+        margin: 0 0 20px 0;
+    }
+    .album_part {
+        margin-top: 30px;
+    }
+    .album_part span::after {
+        display: none;
+    }
+    .album_part .album_slider {
+        margin: 30px 0;
+    }
+    .album_part .text a{
+        color: #fff !important;
+        background: #db1b73;
+        margin-top: 25px;
+    }
+    .work_part .masage_text_con {
+        padding: 0 0px;
+    }
+    .work_part .masage_text_con h2 {
+        font-size: 33px;
+    }
+    .work_part .overlay p {
+        font-size: 16px;
+        margin: 28px 0 0 0;
+    }
+    .work_part .overlay {
+        padding: 34px 0;
+    }
+    .service_part {
+        margin: 15px 0;
+        padding: 10px;
+    }
+    .service_part span::after {
+        display: none;
+    }
+    .service_part .title p {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .service_part .item_con {
+        margin: 10px 0;
+        margin-left: 0px;
+    }
+    .masage_part p {
+        margin: 0 0 25px 0;
+    }
+    .masage_part .overlay {
+        padding: 0px;
+        text-align: center;
+    }
+    .masage_part h2 {
+        font-size: 37px;
+    }
+    .masage_part .btn {
+        margin-left: -0px;
+    }
+    .masage_part p {
+        margin: 0 0 25px 0;
+    }
+    .masage_part .skill_text {
+        margin: 30px 0 0 -31px;
+    }
+    .port_part {
+        padding: 15px 0;
+    }
+    .port_part .title p {
+        margin-bottom: 0px;
+    }
+    .port_part .row > * {
+        padding-right: calc(var(--bs-gutter-y) * .0);
+        padding-left: calc(var(--bs-gutter-y) * .0);
+    }
+    .port_part span::after {
+        display: none;
+    }
+    .port_part .title h2 {
+        font-size: 30px;
+    }
+    .port_part .portfolio_filter button {
+        padding: 5px;
+    }
+    .port_part .portfolio_filter button {
+        padding: -2px 15px !important;
+        color: var(--color-1);
+    }
+    .blog_part {
+        padding: 10px 0;
+    }
+    .blog_part .title p {
+        margin-bottom: 20px;
+    }
+    .blog_part .title span::after {
+        display: none;
+    }
+    .blog_part .item_con {
+        margin: 10px 0;
+    }
+    .blog_part .item_con .text_con {
+        text-align: center;
+    }
+    .blog_part .item_con .btm i {
+        margin: 0 0 0 14px;
+    }
+    .contact_part .overlay {
+        padding: 13px 0;
+    }
+    .contact_part .title {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .contact_part .title h2 {
+        font-size: 30px;
+    }
+    .contact_part .title span::after{
+        display: none;
+    }
+    .contact_part form{
+        margin: 0px;
+    }
+    .contact_part .main input{
+        width: 97%;
+        margin: 10px 0;
+    }
+    .contact_part .website input{
+        margin-top: 8px;
+    }
+    .contact_part .adders{
+        margin: 25px 0;
+        padding-bottom: 30px;
+    }
+    .back_2_top {
+        padding: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer .text{
+        text-align: center;
+    }
+    footer .icon{
+        margin-top: 12px;
+        text-align: center;
+    }
+    footer .icon a{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) and (max-width: 991.98px) {
+    nav button i{
+        color: #fff;
+    }
+    nav ul li a::before{
+        height: 0px;
+    }
+    nav ul li a::after{
+        height: 0px;
+    }
+    nav ul li{
+        text-align: center;
+        background: #000;
+        margin: 0 0 0 0px;
+    }
+    .cunter_part {
+        padding: 20px 0 0 0;
+    }
+    .cunter_part .item {
+        padding: 20px;
+        margin: 0 0 20px 0;
+    }
+    .album_part {
+        margin-top: 30px;
+    }
+    .album_part span::after {
+        display: none;
+    }
+    .album_part .album_slider {
+        margin: 30px 0;
+    }
+    .album_part .text a{
+        color: #fff !important;
+        background: #db1b73;
+        margin-top: 25px;
+    }
+    .work_part .masage_text_con {
+        padding: 0 0px;
+    }
+    .work_part .masage_text_con h2 {
+        font-size: 33px;
+    }
+    .work_part .overlay p {
+        font-size: 16px;
+        margin: 28px 0 0 0;
+    }
+    .work_part .overlay {
+        padding: 34px 0;
+    }
+    .service_part {
+        margin: 15px 0;
+        padding: 10px;
+    }
+    .service_part span::after {
+        display: none;
+    }
+    .service_part .title p {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .service_part .item_con {
+        margin: 10px 0;
+        margin-left: 0px;
+    }
+    .masage_part .overlay {
+        padding: 12px;
+    }
+    .port_part {
+        padding: 15px 0;
+    }
+    .port_part .title p {
+        margin-bottom: 0px;
+    }
+    .port_part .row > * {
+        padding-right: calc(var(--bs-gutter-y) * .0);
+        padding-left: calc(var(--bs-gutter-y) * .0);
+    }
+    .port_part span::after {
+        display: none;
+    }
+    .port_part .title h2 {
+        font-size: 30px;
+    }
+    .port_part .portfolio_filter button {
+        padding: 5px;
+    }
+    .port_part .portfolio_filter button {
+        padding: -2px 15px !important;
+        color: var(--color-1);
+    }
+    .blog_part {
+        padding: 10px 0;
+    }
+    .blog_part .title p {
+        margin-bottom: 20px;
+    }
+    .blog_part .title span::after {
+        display: none;
+    }
+    .blog_part .item_con {
+        margin: 10px 0;
+    }
+    .blog_part .item_con .text_con {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .blog_part .item_con .btm {
+        padding: 10px;
+    }
+    .blog_part .item_con .btm i {
+        margin: 0 0 0 5px;
+        font-size: 15px;
+    }
+    .contact_part .overlay {
+        padding: 13px 0;
+    }
+    .contact_part .title {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .contact_part .title h2 {
+        font-size: 30px;
+    }
+    .contact_part .title span::after{
+        display: none;
+    }
+    .contact_part form{
+        margin: 0px;
+    }
+    .contact_part .main input {
+        width: 97%;
+        margin: 4px 0;
+    }
+    .contact_part .website input{
+        margin: 4px 0;
+    }
+    .contact_part .masage textarea {
+        margin: 5px 0;
+    }
+    .contact_part .adders{
+        margin: 25px 0;
+        padding-bottom: 30px;
+    }
+    .contact_part .adders_con {
+        margin: 81px 0 0 0;
+    }
+    footer{
+        padding: 10px;
+    }
+    footer .text{
+        text-align: center;
+        margin: 3px 0 0 0;
+    }
+    footer .icon {
+        margin: 5px 0 0 0;
+    }
+    footer .icon a{
+        margin: 0 0 0 5px;
+        font-size: 20px;
+    } 
+}
+@media (min-width:992px) and (max-width: 1199.98px) {
+    .cunter_part .item p {
+        font-size: 18px;
+    }
+    .about_part .text_con h5 {
+        font-size: 20px;
+        margin: 0 0;
+    }
+    .about_part .text_con p {
+        font-size: 14px;
+        margin: 5px 0 14px 0;
+        line-height: 1.6;
+        word-spacing: 0px;
+    }
+    .album_part .album_slider {
+        margin: 24px 0;
+    }
+    .work_part .masage_text_con {
+        padding: 0 91px;
+    }
+    .blog_part {
+        padding: 30px 0;
+    }
+    .blog_part .item_con .btm i {
+        margin: 0 0 0 16px;
+        font-size: 18px;
+    }
+    .contact_part .overlay {
+        padding: 13px 0;
+    }
+    .contact_part .title {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .contact_part .title h2 {
+        font-size: 30px;
+    }
+    .contact_part .title span::after{
+        display: none;
+    }
+    .contact_part form{
+        margin: 0px;
+    }
+    .contact_part .main input {
+        width: 97%;
+        margin: 4px 0;
+    }
+    .contact_part .website input{
+        margin: 4px 0;
+    }
+    .contact_part .masage textarea {
+        margin: 5px 0;
+    }
+    .contact_part .adders{
+        margin: 25px 0;
+        padding-bottom: 30px;
+    }
+    .contact_part .adders_con {
+        margin: 81px 0 0 0;
+    }
+    
+}
+@media (min-width:1199px) and (max-width: 1200.98px) {
+    .cunter_part .item p {
+        font-size: 18px;
+    }
+    .about_part .text_con h5 {
+        font-size: 20px;
+        margin: 0 0;
+    }
+    .about_part .text_con p {
+        font-size: 14px;
+        margin: 5px 0 14px 0;
+        line-height: 1.6;
+        word-spacing: 0px;
+    }
+    .album_part .album_slider {
+        margin: 24px 0;
+    }
+    .work_part .masage_text_con {
+        padding: 0 91px;
+    }
+    .blog_part {
+        padding: 30px 0;
+    }
+    .blog_part .item_con .btm i {
+        margin: 0 0 0 16px;
+        font-size: 18px;
+    }
+    .contact_part .overlay {
+        padding: 13px 0;
+    }
+    .contact_part .title {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .contact_part .title h2 {
+        font-size: 30px;
+    }
+    .contact_part .title span::after{
+        display: none;
+    }
+    .contact_part form{
+        margin: 0px;
+    }
+    .contact_part .main input {
+        width: 97%;
+        margin: 4px 0;
+    }
+    .contact_part .website input{
+        margin: 4px 0;
+    }
+    .contact_part .masage textarea {
+        margin: 5px 0;
+    }
+    .contact_part .adders{
+        margin: 25px 0;
+        padding-bottom: 30px;
+    }
+    .contact_part .adders_con {
+        margin: 81px 0 0 0;
+    }
+    
+}
